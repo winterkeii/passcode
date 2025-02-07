@@ -1,0 +1,77 @@
+.Calculator {
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+.Calcontainer{
+  background-color: #61614d;
+  width: 450px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: auto;
+  padding: 15px;
+}
+
+.Displaycon{
+  height: 60px;
+  background-color: aliceblue;
+  border: 1px solid black;
+ 
+}
+.Display{
+  padding-right: 3px;
+  
+}
+.Displaycon{
+  font-size: 2rem;
+  text-align: right;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 50px;
+  
+}
+
+.Buttons{
+  background-color: rgb(54, 54, 54);
+  display: grid;
+  grid-gap: 4px;
+  grid-template-columns: repeat(3, 1fr);
+  box-shadow: none;
+  border: none;
+  padding: 5px;
+  height: 300px;
+  border-radius: 5px;
+  
+}
+
+.clear-Key {
+  grid-column: span 1;
+
+}
+
+.clear-button:hover {
+  background-color: #ff4444; /* Darker on hover */
+}
+
+.Buttons > Button:hover {
+  background-color: #5b5b5c; /* Darker on hover */
+}
+
+
+.Buttons > Button{
+  font-size: 2em;
+  background-color: rgb(190, 196, 194);
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
+  transition: background-color .2s ease, transform .2s ease;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+.MEDINA{
+   margin-top: 1px;
+   font-size: 2em;
+   grid-column: span 1;
+}
