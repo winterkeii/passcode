@@ -47,7 +47,7 @@ function App() {
       setStep(0);
       setNum1("");
     } else {
-      setDisp(num1 === pin ? "OPEN" : "INVALID CODE");
+      setDisp(num1 === pin ? "OPEN" : "LOCKED");
       setNum1("");
     }
   };
